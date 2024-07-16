@@ -29,6 +29,16 @@ build/
 *.coverage
 .coverage.*
 
+# Node.js e npm
+node_modules/
+
+# Ambiente virtual Python
+venv/
+env/
+
+# Arquivos de configuração local (opcional)
+.env
+
 # Translations
 *.mo
 *.pot
@@ -89,10 +99,15 @@ cython_debug/
 *.pyo
 .idea/
 
-# Virtualenv
-env/
-venv/
-
 # Miscellaneous
 .DS_Store
 Thumbs.db
+
+# Ignore complied Python files
+__pycache__/
+*.pyc
+
+# Ignore other unwanted files
+*.log
+*.tmp
+*.swp
